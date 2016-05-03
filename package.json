@@ -1,0 +1,36 @@
+{
+  "name": "hue-hue-vue",
+  "version": "1.0.0",
+  "description": "Vue.js is too cool not to play with. Let's do this!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertbenjamin/hue-hue-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertbenjamin/hue-hue-vue/issues"
+  },
+  "homepage": "https://github.com/robertbenjamin/hue-hue-vue#readme",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^0.23.1",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.2.3",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "vue": "^1.0.21"
+  }
+}
