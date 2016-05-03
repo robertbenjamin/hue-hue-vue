@@ -9,6 +9,11 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue'
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel',
+        exclude: /node_modules/
       }
     ]
   }
