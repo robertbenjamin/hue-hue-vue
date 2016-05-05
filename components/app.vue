@@ -18,5 +18,9 @@ export default {
 </script>
 
 <style>
+.app {
+  width: 600px;
+  margin: 0 auto;
+}
 /* default stles should go here */
 </style>

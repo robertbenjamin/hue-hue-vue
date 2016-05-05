@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<!-- JavScript here -->
+
 <script>
 module.exports = {
   data: function() {
@@ -49,11 +49,10 @@ module.exports = {
 }
 </script>
 
+
 <!-- Add `lang='sass'` to the style tag for preprocessing -->
 <style lang="sass">
 .album-list {
-  width: 600px;
-  margin: 0 auto;
 
   .album {
     display: flex;
