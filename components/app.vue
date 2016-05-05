@@ -1,18 +1,22 @@
 <template>
   <div class="app">
-    <component-a></component-a>
-    <component-b></component-b>
+    <album-search></album-search>
+    <album-list></album-list>
   </div>
 </template>
 
 <script>
-import componentA from './component-a.vue'
-import componentB from './component-b.vue'
+import AlbumSearch from './album-search.vue'
+import AlbumList from './album-list.vue'
 
 export default {
   components: {
-    componentA,
-    componentB
+    AlbumSearch,
+    AlbumList
   }
 }
 </script>
+
+<style>
+/* default stles should go here */
+</style>

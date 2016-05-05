@@ -1,10 +1,10 @@
-var vue = require('vue')
+var Vue = require('vue')
 
-var app = require('./components/app.vue')
+var App = require('./components/app.vue')
 
-new vue({
+new Vue({
   el: 'body',
   components: {
-    app: app
+    app: App
   }
 })
